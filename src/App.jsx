@@ -1,7 +1,16 @@
+import { FormCreateTask } from "./components/form/Form";
+import { ListActions } from "./components/list-actions/ListActions";
+import { TaskList } from "./components/taks-list/TaskList";
+
 function App() {
   return (
-    'DEMO'
-  )
+    <main>
+      <h1>Todo</h1>
+      <FormCreateTask />
+      <ListActions />
+      <TaskList />
+    </main>
+  );
 }
 
-export default App; 
+export default App;
